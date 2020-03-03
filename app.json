@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/shouye/shouye",
+    "pages/story/story",
+    "pages/denglu/denglu",
+    "pages/my/my",
+    "pages/zhuanji/zhuanji",
+    "pages/gouwuche/gouwuche",
+    "pages/index/index",
+    "pages/storyb/storyb",
+    "pages/logs/logs",
+    "pages/story2/story2",
+    "pages/story3/story3",
+    "pages/story4/story4",
+    "pages/fankui/fankui",
+    "pages/youhui/youhui"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFAFA",
+    "navigationBarTitleText": "纱与时光",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#FFF0F5"
+  },
+  "tabBar": {
+    "color": "#000",
+    "backgroundColor": "#FFFAFA",
+    "list": [
+      {
+        "pagePath": "pages/shouye/shouye",
+        "text": "首页",
+        "iconPath": "image/castle.png",
+        "selectedIconPath": "image/castlese.png"
+      },
+      {
+        "pagePath": "pages/story/story",
+        "text": "商城",
+        "iconPath": "image/dress.png",
+        "selectedIconPath": "image/dressse.png"
+      },
+      {
+        "pagePath": "pages/gouwuche/gouwuche",
+        "text": "购物车",
+        "iconPath": "image/shop.png",
+        "selectedIconPath": "image/shopse.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "image/my.png",
+        "selectedIconPath": "image/myse.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

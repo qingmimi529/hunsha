@@ -1,0 +1,23 @@
+<view wx:for="{{list}}" style="margin-left:30rpx" wx:key class='zong'>
+<view class='tu'></view>
+  <view class='wen'>
+    <view bindtap="BindList" data-id="{{item.id}}" data-price="{{item.totle}}" class='shang'>
+      <icon type="success" size="20" color="red" wx:if="{{item.select==true}}" />
+      <icon type="circle" size="20" wx:else /> {{item.name}}---单价：{{item.price}}
+    </view>
+    <view class="count">
+      <view class="reduce {{minusStatus}}" bindtap="BindReaduce" data-id="{{item.id}}">-</view>
+      <input class="import" value="{{item.InputValue}}" data-id="{{item.id}}" bindinput='BindInput'></input>
+      <view class="add" bindtap="BindAdd" data-id="{{item.id}}">+</view>
+    </view>
+    <view class='jiage'>商品价格：{{item.totle}}</view>
+  </view>
+</view>
+
+<view class='db'>
+  <view class='quanbu' bindtap="BindListall">
+    <icon type="success" size="20" color="red" wx:if="{{selectall==true}}" />
+    <icon type="circle" size="20" wx:else/>全部购物车
+  </view>
+  <view class='zongjg'>商品总价格: {{total}}</view>
+</view>

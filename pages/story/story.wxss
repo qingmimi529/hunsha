@@ -1,0 +1,48 @@
+/* pages/story/story.wxss */
+.swiper {
+  height: 200px;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+
+
+.zhuti {
+  display: flex;
+  width: 375px;
+  height: 471px;
+  /* justify-content: center;
+  align-items: center; */
+  border-width: 5px;
+  flex-wrap: wrap;
+ justify-content: center;
+ margin-top: 8px;
+}
+.hezi{
+  width: 45%;
+  height: 157px;
+  background-size: 100% 110%;
+  border: 1px solid#ccc;
+  display: inline-block;
+  border-radius: 5px;
+}
+.wenzi{
+height: 157px;
+display: inline-block;
+color: rgb(255, 255, 255);
+font-weight: 500;
+font-size: 30px;
+line-height: 157px;
+padding-left: 55px;
+
+}
+
+  .fenge{
+  width: 300px;
+  height: 30px;
+  background: url(https://i.loli.net/2019/03/06/5c7fcbe924bfc.png);
+  background-size: 100% 100%;
+  margin: 0 auto;
+}

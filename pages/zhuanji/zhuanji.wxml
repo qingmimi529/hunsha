@@ -1,0 +1,5 @@
+<!--pages/zhuanji/zhuanji.wxml-->
+<view class='ding'>{{zhji}}</view>
+<view class='tu' style='background-image: url({{images}});'></view>
+<view class='tu1' style='background-image: url({{images1}});'></view>
+

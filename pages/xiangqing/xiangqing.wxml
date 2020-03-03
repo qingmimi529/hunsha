@@ -1,0 +1,12 @@
+
+<view class='xiangqingtop'>商品详情</view>
+
+<view class='shpinbottom'>
+  <view class='shpintu' style='background-image: url({{image}});'></view>
+    <view class='dx'>以极简主义设计风格为主，也没有什么繁琐的装饰，无不显示一中极简之美。19年春夏婚纱系列，在极简主义的基础上添加了激光切割花朵及蝴蝶结作为细节，唯美而灵动。</view> 
+  <view class='shpinqt'>
+    <view class='shpinqtL'>{{text2}}</view>
+    <navigator url="/pages/gouwuche/gouwuche"  open-type="switchTab" class='shpinqtR'>{{text3}}</navigator>
+  </view>
+
+</view>

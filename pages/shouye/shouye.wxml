@@ -1,0 +1,83 @@
+<!--pages/shouye/shouye.wxml-->
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="2000" duration="1000">
+  <block wx:for="{{movies}}" wx:for-index="index">
+    <swiper-item>
+      <image src="{{item.url}}" class="slide-image" mode="aspectFill" />
+    </swiper-item>
+  </block>
+</swiper>
+
+
+
+<!-- 输入框 --><view>
+<view class='bjyy'>
+<audio src='http://dl.stream.qqmusic.qq.com/M500002kkJSE0IeS1F.mp3?vkey=6130766064690B2D8D4DE1CFA72B07A672D2A02293E992AE32F335D4BAB1085E11C7E38E4C8C4DCF1F06188BB229F11CE4A9100163A73AF4&guid=5150825362&fromtag=1' poster='//img01.hua.com/uploadpic/newpic/1073155.jpg_80x87.jpg' id='audioMao'  class='audioMao' bindtap='audioMaoPlay' autoplay="tru">
+  
+</audio>
+</view>
+<input class='sousuo' type='text' placeholder='想要找点什么？'></input>
+</view>
+
+<!-- 婚礼细节 -->
+  <view class='wedding'>
+    <view class='zhuanji' wx:for="{{arr}}">
+      <view class='TU' bindtap="tuClick" style='background-image:url({{item.image}});' id='{{index}}'></view>
+      <view class='tuText'>{{item.text}}</view>
+    </view>
+  </view>
+
+
+<!-- 故事的开始 -->
+
+<view class='xian'>
+  <view class='xianzuo'></view>
+  <view class='xianzhong'>story begin</view>
+  <view class='xianyou'></view>
+</view>
+
+
+<view class='numb3'></view>
+<!-- 第一个故事 -->
+<navigator url='/pages/storyb/storyb' class='story {{condition==2?"tActive":"tStatic"}}' id='1'>
+  <view class='left1'></view>
+  <view class='right1'>
+    <view class='storym'> 2019秋冬最新系列中最“旧”的10款婚纱</view>
+  </view>
+</navigator>
+
+
+<view class='fenge'></view>
+
+
+
+<!-- 第二个故事 -->
+<navigator url='/pages/story2/story2' class='story {{condition==2?"tActive":"tStatic"}}' id='2'>
+  <view class='left2'></view>
+  <view class='right2'>
+    <view class='storym'> 童谣：书信是我最传情的独白</view>
+  </view>
+</navigator>
+
+<view class='fenge'></view>
+
+<!-- 第三个故事 -->
+<navigator url='/pages/story3/story3' class='story {{condition==2?"tActive":"tStatic"}}' id='3'>
+  <view class='left3'></view>
+  <view class='right3'>
+    <view class='storym'> Pronovias亚洲首家旗舰店沪上开业</view>
+  </view>
+</navigator>
+
+<view class='fenge'></view>
+
+<!-- 第四个故事 -->
+<navigator url='/pages/story4/story4' class='story {{condition==2?"tActive":"tStatic"}}' id='4'>
+  <view class='left4'></view>
+  <view class='right4'>
+    <view class='storym'>2018结婚的女明星婚礼现场穿什么大盘点</view>
+  </view>
+</navigator>
+
+<view class='fenge'></view>
+
+

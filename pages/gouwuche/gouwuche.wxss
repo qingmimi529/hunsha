@@ -1,0 +1,97 @@
+.checkbox {
+  padding: 50rpx;
+}
+
+.checkbox-handle {
+  margin-bottom: 40rpx;
+}
+
+.count {
+  overflow: hidden;
+  width: 300rpx;
+   margin-left: 51px;
+  margin-top: 30rpx;
+}
+
+.add {
+  float: left;
+  border: 2rpx solid #d0cccb;
+  padding: 1rpx 20rpx;
+  margin-left: 60rpx;
+}
+
+.import {
+  border: 2rpx solid #d0cccb;
+  vertical-align: top;
+  width: 80rpx;
+  display: inline-block;
+  text-align: center;
+  margin-left: 12rpx;
+  font-size: 28rpx;
+}
+
+.reduce {
+  float: right;
+  display: inline-block;
+  border: 2rpx solid #d0cccb;
+  padding: 1rpx 20rpx;
+}
+
+
+.zongjg{
+  width: 50%;
+  height: 40px;
+  background-color: rgb(218, 190, 101);
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  text-align: center;
+
+}
+
+
+.db{
+  display: flex;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  line-height: 40px;
+}
+
+.quanbu{
+  width: 50%;
+  height: 40px;
+  color: rgb(218, 190, 101);
+  display: inline-block;
+  text-align: center;
+}
+
+.tu{
+width: 90px;
+height: 110px;
+border: 1px solid #ccc;
+display: inline-block;
+background: url(http://5b0988e595225.cdn.sohucs.com/images/20180803/46bdf1d8c97141d7aaeca5a86c27b6ad.jpeg);
+background-size: 100% 100%;
+}
+
+.zong{
+  display: flex;
+}
+
+.wen{
+  display: inline-block;
+}
+
+.jiage{
+  font-size: 17px;
+  margin-left: 90px;
+   margin-top: 30rpx;
+}
+
+
+.shang{
+  font-size: 17px;
+  margin-left: 33px;
+
+}

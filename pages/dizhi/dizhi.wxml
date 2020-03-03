@@ -1,0 +1,17 @@
+<!--pages/dizhi/dizhi.wxml-->
+<view class='dt'></view>
+<input  class= 'dizhi' bindinput="handleInputPhone" placeholder="请输入你的收货地址1" />
+  <view>
+    <button class='submit' bindtap='submit'>提交</button>
+  </view>
+<input  class= 'dizhi' bindinput="handleInputPhone" placeholder="请输入你的收货地址2" />
+  <view>
+    <button class='submit' bindtap='submit'>提交</button>
+  </view>
+<input  class= 'dizhi' bindinput="handleInputPhone" placeholder="请输入你的收货地址3" />
+
+  <view>
+    <button class='submit' bindtap='submit'>提交</button>
+  </view>
+
+  <view class='dit'></view>

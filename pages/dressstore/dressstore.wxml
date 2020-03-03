@@ -1,0 +1,15 @@
+<!-- 风格名 -->
+<view class="top">
+  典雅风格
+</view>
+
+<!-- 商品列表 -->
+<view class='bottom'>
+  <view class='shangpin' wx:for="{{shangpinarr}}" bindtap='spclick' id='{{index}}'>
+    <view class='spTu' style='background-image: url({{item.spimage}});'></view>
+    <view class='spZi'>{{item.spwenzi}}</view>
+    <view class='spJg'>{{item.spjiage}}</view>
+  </view>
+</view>
+<!-- open-type="switchTab" -->
+

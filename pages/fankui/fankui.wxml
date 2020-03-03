@@ -1,0 +1,4 @@
+<!--pages/fankui/fankui.wxml-->
+
+<input class='yijiank' type='text' placeholder='请写下您的意见？'></input>
+<button class='submit' >提交</button>

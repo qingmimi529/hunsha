@@ -1,0 +1,27 @@
+<!--pages/story/story.wxml-->
+
+<!-- <view class='search'>
+  <view class='Rsearch'>
+    <input placeholder='搜索'></input>
+  </view>
+  <view class='lovebox'>lovebox</view>
+  <view class='gouwuche'></view>
+</view> -->
+
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="2000" duration="1000">
+  <block wx:for="{{movies}}" wx:for-index="index">
+    <swiper-item>
+      <image src="{{item.url}}" class="slide-image" mode="aspectFill" />
+    </swiper-item>
+  </block>
+</swiper>
+
+
+<view class='fenge'></view>
+
+
+<view class='zhuti'>
+  <navigator url="/pages/dressstore/dressstore"  class='hezi' wx:for="{{shuzu}}" style='background-image: url({{item.image}});' bindtap='hzclick' id='{{index}}'> 
+    <view class='wenzi'>{{item.wtext}}</view>
+  </navigator>
+</view>

@@ -1,0 +1,6 @@
+<!--pages/youhui/youhui.wxml-->
+<view class='youhuiq'>优惠券</view>
+<view class='you1'></view>
+<view class='you1'></view>
+<view class='you2'></view>
+

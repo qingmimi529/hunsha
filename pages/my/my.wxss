@@ -1,0 +1,132 @@
+/* <!-- 登录 --> */
+
+.denglu {
+  width: 30px;
+  height: 30px;
+  margin-left: 85%;
+  background: url(https://i.loli.net/2019/03/07/5c811f6ce1265.png);
+  background-size: 100% 100%;
+}
+
+/* <!-- 获取头像 --> */
+
+.userinfo {
+  height: 109px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+/* <!-- 通知  我的订单 --> */
+
+.tongzhidingdan {
+  margin: 0 auto;
+  width: 96%;
+}
+
+.tongzhi {
+  padding-left: 75px;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.dingdan {
+  margin-left: 150px;
+  font-size: 15px;
+  display: inline-block;
+}
+
+/* 功能模块 */
+
+.gongneng {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.dizhi {
+  width: 100%;
+  height: 50px;
+  margin-top: 3px;
+  color: rgb(112, 110, 110);
+  display: inline-block;
+  font-size: 15px;
+  border-bottom: 1px solid rgb(190, 190, 190);
+  line-height: 50px;
+}
+
+.t1{
+  width: 20px;
+  height: 20px;
+  background: url(https://i.loli.net/2019/03/07/5c80b838c2760.png);
+  background-size: 100% 100%;
+  display: inline-block;
+  margin-right: 3px;
+  margin-left: 20px;
+}
+
+
+.youhuijue {
+  width: 100%;
+  height: 50px;
+  margin-top: 3px;
+  color: rgb(112, 110, 110);
+  display: inline-block;
+  font-size: 15px;
+  border-bottom: 1px solid rgb(190, 190, 190);
+  line-height: 50px;
+}
+
+.t2{
+  width: 20px;
+  height: 20px;
+  background: url(https://i.loli.net/2019/03/07/5c80bdb20f941.png);
+  background-size: 100% 100%;
+  display: inline-block;
+  margin-right: 3px;
+  margin-left: 20px;
+}
+
+
+.fankui {
+  width: 100%;
+  height: 50px;
+  margin-top: 3px;
+  color: rgb(112, 110, 110);
+  display: inline-block;
+  font-size: 15px;
+  border-bottom: 1px solid rgb(190, 190, 190);
+  line-height: 50px;
+}
+
+.t3{
+  width: 20px;
+  height: 20px;
+  background: url(https://i.loli.net/2019/03/07/5c80bde0ea9e5.png);
+  background-size: 100% 100%;
+  display: inline-block;
+  margin-right: 3px;
+  margin-left: 20px;
+}
+
+.userinfo {
+  width: 100%;
+  height: 200px;
+  background: url(https://i.loli.net/2019/03/07/5c80d39fa35d8.jpg);
+  background-size: 110% 110%;
+}

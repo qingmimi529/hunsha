@@ -1,0 +1,43 @@
+<view class="userinfo">
+  <navigator url='/pages/denglu/denglu' class='denglu'>
+  </navigator>
+  <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+  <block wx:else>
+    <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </block>
+</view>
+
+
+<!-- 通知  我的订单 -->
+<view class='tongzhidingdan'>
+  <view class='tongzhi'>通知</view>
+  <view class='dingdan'>我的订单 </view>
+</view>
+
+
+
+
+
+
+
+<!-- /* 功能模块 */ -->
+<view class='gongneng'>
+  <!-- 收货地址 -->
+  <navigator url='/pages/dizhi/dizhi' class='dizhi'>
+    <view class='t1'></view>收货地址
+  </navigator>
+
+  <!-- 优惠券 -->
+  <view class='youhuijue'>
+    <navigator url='/pages/youhui/youhui'>
+      <view class='t2'></view>优惠券
+    </navigator>
+  </view>
+  <!-- 意见反馈 -->
+  <view class='fankui'>
+    <navigator url='/pages/fankui/fankui'>
+      <view class='t3'></view>意见反馈
+          </navigator>
+  </view>
+</view>
